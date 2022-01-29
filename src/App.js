@@ -8,6 +8,7 @@ import Destinos from './components/Destinos'
 import Rotas from './components/Rotas'
 import Promocoes from './components/Promocoes'
 import Avaliacoes from './components/Avaliacoes'
+import Contato from './components/Contato'
 
 function App() {
   return (
@@ -19,8 +20,7 @@ function App() {
       <Rotas/>
       <Promocoes/>
       <Avaliacoes/>
-
-
+      <Contato/>
     </div>
   )
 }

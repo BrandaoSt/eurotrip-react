@@ -33,6 +33,9 @@
   width: 7.50rem;
 }
 
+.nav-link {
+  text-transform: uppercase;
+}
 .nav a.nav-link {
   font-size: .9rem;
   letter-spacing: 0.0375;
@@ -488,4 +491,110 @@
 .avaliacoes .slide img {
   width: 10rem !important;
   border-radius: 50%;
+}
+
+/***************************     CONTATO      *******************************/
+ .contato {
+   background: var(--preto-hover);
+   padding: 3rem 0;
+ }
+
+ .contato h1 {
+   color: var(--cor-secundaria2);
+   padding: 1.3rem 0;
+   text-transform: uppercase;
+   font-weight: 200;
+ }
+
+ .contato p {
+   color: var(--cinzaclaro);
+   font-size: 1.2rem;
+ }
+
+ .contato input, .contato textarea {
+   width: 100%;
+   box-sizing: border-box;
+   background: none;
+   resize: none;
+   border: 0;
+   border-bottom: 0.125rem solid var(--cinzaescuro);
+   border-radius: 0;
+   color: var(--cinza);
+   outline: 0 !important;
+   box-shadow: none !important; 
+   margin-bottom: 1rem;
+   padding-left: 0 !important;
+ }
+
+.contato .container {
+  padding: 4rem 0;
+}
+
+.contato input:focus, .contato textarea:focus {
+  background: transparent;
+  color: var(--cor-secundaria2);
+  border-bottom: 0.125rem solid var(--cinzaescuro);
+}
+
+.contato textarea {
+  height: 13.7rem !important; 
+}
+
+.btn-contato {
+  border: 1px solid var(--cor-secundaria2);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--branco);
+  margin: 2rem;
+}
+
+.btn-contato:hover {
+  text-decoration: none;
+  background-color: var(--cor-secundaria2);
+  color: var(--branco);
+  transition:  .2s ease-in-out;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+}
+
+.line {
+  position: relative;
+  top: -0.8rem;
+  width: 0;
+  height: 0.125rem;
+  background: var(--cor-secundaria2);
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+input.form-control {
+  margin: -0.3rem 0;
+}
+
+textarea.form-control {
+  margin: -0.3rem 0;
+}
+
+@media (max-width:768px) {
+  
+  .contato {
+    overflow-x: hidden;
+  }
+  
+  .contato .container {
+    padding: 0 1rem;
+  }
+
+  .contato p {
+    padding: 0 0.4rem;
+  }
 }
