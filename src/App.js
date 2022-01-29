@@ -7,6 +7,7 @@ import Sobre from './components/Sobre'
 import Destinos from './components/Destinos'
 import Rotas from './components/Rotas'
 import Promocoes from './components/Promocoes'
+import Avaliacoes from './components/Avaliacoes'
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <Destinos/>
       <Rotas/>
       <Promocoes/>
+      <Avaliacoes/>
+
 
     </div>
   )
