@@ -14,6 +14,7 @@
   --pretoopaco: rgba(0,0,0,0.7);
   --cor-secundaria: #6986bfc7;
   --cor-secundaria2: #F22E52; 
+  --verde: green;
 
 }
 
@@ -537,7 +538,7 @@
 }
 
 .contato textarea {
-  height: 13.7rem !important; 
+  height: 12.3rem !important; 
 }
 
 .btn-contato {
@@ -597,4 +598,18 @@ textarea.form-control {
   .contato p {
     padding: 0 0.4rem;
   }
+}
+
+/***************************** AJUSTES BACKEND **********************************/
+
+.error-message {
+  color: var(--branco);
+  background: var(--cor-secundaria2);
+  text-align: left;
+
+}
+
+.success-message {
+  font-weight: 500;
+  color: var(--verde);
 }
