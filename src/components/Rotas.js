@@ -2,7 +2,7 @@ import React from 'react'
 
 const Rotas = () => {
     return (
-        <div className='rotas'>
+        <div id='rotas' className='rotas'>
             <div className='d-flex justify-content-center my-5'>
                 <h1>Rotas</h1>
             </div>

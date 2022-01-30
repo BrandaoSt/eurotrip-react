@@ -12,7 +12,7 @@ import roma from '../imagens/roma.jpg'
 
 const Destinos = () => {
     return (
-        <div className='destinos'>
+        <div id='destinos' className='destinos'>
             <h1 className='py-5'>Destinos</h1>
             <div className='container'>
                 <div className='row'>

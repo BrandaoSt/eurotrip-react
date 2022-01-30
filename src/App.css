@@ -82,7 +82,7 @@
   background: url(imagens/bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -144,12 +144,17 @@
 }
 
 .minhafoto {
-  width: 17rem;
+  width: 18.5rem;
   height: 18rem;
   border-radius: 50%;
   padding: .3rem;
   border: 1px solid var(--cor-secundaria2);
   
+}
+
+.assinatura {
+  color: var(--cor-secundaria2);
+  font-weight: 200;
 }
 
 .title-sobre {
@@ -173,7 +178,7 @@
 }
 
 .destinos h1 {
-  color: var(--dark);
+  color: var(--cor-secundaria2);
   text-transform: uppercase;
   font-weight: 200;
 }
@@ -219,6 +224,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 
 .pais {
   width: 15rem;
@@ -612,4 +618,29 @@ textarea.form-control {
 .success-message {
   font-weight: 500;
   color: var(--verde);
+}
+
+
+/*********************************** FOOTER **************************************/
+
+.footer {
+  background: var(--preto-hover);
+  color: var(--cinzaescuro);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--cinzaescuro);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--cor-secundaria2);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+
 }

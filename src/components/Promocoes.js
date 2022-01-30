@@ -111,7 +111,7 @@ const Promocoes = () => {
     }
 
     return (
-        <div className='promocoes-wrapper'>
+        <div id='promocoes' className='promocoes-wrapper'>
             <div className='container'>
                 <h1 className='text-uppercase text-center py-5'>Promoções</h1>
                 <div className='image-box-wrapper row row-cols-auto justify-content-center'>

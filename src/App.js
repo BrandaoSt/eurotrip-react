@@ -9,6 +9,7 @@ import Rotas from './components/Rotas'
 import Promocoes from './components/Promocoes'
 import Avaliacoes from './components/Avaliacoes'
 import Contato from './components/Contato'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Promocoes/>
       <Avaliacoes/>
       <Contato/>
+      <Footer/>
     </div>
   )
 }

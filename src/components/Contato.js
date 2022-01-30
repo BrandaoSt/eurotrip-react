@@ -35,7 +35,7 @@ const Contato = () => {
     };
 
     return (
-        <div className='contato'>
+        <div id='contato' className='contato'>
             <div className='text-center'>
                 <h1>Contato</h1>
                 <p>Para orçamentos, reservas, agendamentos, alterações de reserva e informações.</p>
