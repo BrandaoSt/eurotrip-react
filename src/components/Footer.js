@@ -7,7 +7,7 @@ import {
     TwitterIcon,
     WhatsappShareButton,
     WhatsappIcon,
-    LineShareButton,
+    LinkedinShareButton,
     LinkedinIcon
 } from 'react-share'
 /* eslint-disable jsx-a11y/anchor-is-valid */
@@ -69,13 +69,13 @@ const Footer = () => {
                             >
                                 <WhatsappIcon className='mx-3' size={36} />
                             </WhatsappShareButton>
-                            <LineShareButton
+                            <LinkedinShareButton
                                 url={'https://open.spotify.com/playlist/3Rdrnk6J5tV1bo5gbmlgav'}
                                 quote={"Eurotrip Music"}
                                 hashtag='#viagem'
                             >
                                 <LinkedinIcon className='mx-3' size={36} />
-                            </LineShareButton>
+                            </LinkedinShareButton>
                         </div>
                         <p className='pt-3 text-center'>Copyright&copy;
                         {new Date().getFullYear()}&nbsp;Brasil | Todos os Direitos Reservados
