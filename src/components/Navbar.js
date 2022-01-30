@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../eurologo.png'
+import logo from '../imagens/eurologo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 /* eslint-disable jsx-a11y/anchor-is-valid */

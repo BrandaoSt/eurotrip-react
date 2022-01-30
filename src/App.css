@@ -78,7 +78,7 @@
 
 .header-wraper {
   position: relative;
-  background: url(bg.jpg) no-repeat;
+  background: url(imagens/bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -430,7 +430,7 @@
 /****************************** AVALIAÇÕES ********************************/
 
 .avaliacoes {
-  background-image: url(bg3.jpg);
+  background-image: url(imagens/bg3.jpg);
   background-size: cover;
   background-color: var(--preto-hover);
   text-align: center;

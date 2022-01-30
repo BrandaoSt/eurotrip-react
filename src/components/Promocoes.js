@@ -1,8 +1,8 @@
 import React from 'react'
-import roma from '../Roma7.jpg'
-import inglaterra from '../inglaterra2.jpg'
-import lisboa from '../portugal1.jpg'
-import veneza from '../veneza.jpg'
+import roma from '../imagens/roma.jpg'
+import inglaterra from '../imagens/inglaterra2.jpg'
+import lisboa from '../imagens/portugal1.jpg'
+import veneza from '../imagens/veneza.jpg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearchPlus } from '@fortawesome/free-solid-svg-icons'

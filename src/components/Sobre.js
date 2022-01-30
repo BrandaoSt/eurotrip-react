@@ -1,5 +1,5 @@
 import React from 'react'
-import minhafoto from '../minhafoto.jpg'
+import minhafoto from '../imagens/minhafoto.jpg'
 const Sobre = () => {
     return(
         <div className='container py-5'>

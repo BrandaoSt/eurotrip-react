@@ -1,14 +1,14 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlane } from '@fortawesome/free-solid-svg-icons'
-import franca from '../franca5.jpg'
-import inglaterra from '../inglaterra2.jpg'
-import holanda from '../holanda6.jpg'
-import veneza from '../veneza.jpg'
-import sintra from '../sintra8.jpg'
-import espanha from '../espanha3.jpg'
-import lisboa from '../portugal1.jpg'
-import roma from '../Roma7.jpg'
+import franca from '../imagens/franca5.jpg'
+import inglaterra from '../imagens/inglaterra2.jpg'
+import holanda from '../imagens/holanda6.jpg'
+import veneza from '../imagens/veneza.jpg'
+import sintra from '../imagens/sintra8.jpg'
+import espanha from '../imagens/espanha3.jpg'
+import lisboa from '../imagens/portugal1.jpg'
+import roma from '../imagens/roma.jpg'
 
 const Destinos = () => {
     return (
