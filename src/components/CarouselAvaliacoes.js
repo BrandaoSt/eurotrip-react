@@ -20,7 +20,7 @@ const CarouselAvaliacoes = () => {
                 <img src={avatar4} alt='super homem' />
                 <div className='meucarousel'>
                     <h3>Clark Kent</h3>
-                    <p>Saí do meu planeta Krypton e estou morando no planeta terra e aqui nunca dispenso os serviços excelentes da Eurotrip. Só aqui eu não preciso sair voando, pois a Eurotrip oferece o melhor serviço de bordo em seus boeing's A360.</p>
+                    <p>A Eurotrip desenvolve planos de viagens viáveis, cumpre todos os prazos e os valores da empresa são excelentes.</p>
                 </div>
             </>
             <>
